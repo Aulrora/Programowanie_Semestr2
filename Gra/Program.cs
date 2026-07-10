@@ -1,2 +1,5 @@
-﻿Console.WriteLine("tescik");
-Vector2 startingPosition = new Vector2(4, 2);
+﻿using ClassesIntro;
+
+Vector2 startingPosition = new Vector2(2, 1);
+Game game = new Game("level1.txt", startingPosition);
+game.Run();
